@@ -1,0 +1,20 @@
+Title: Obtain Vulnerability and License Information from Internal Database 
+
+Primary Actor: Corporate Developer
+
+Goal in Context: The corporate developer is able to determine license and vulnerability information from the internal Vulnerability and License database
+
+Stakeholders: 
+  Corporate Developer: Lookup previously submitted software packages that were scanned to ensure policy is followed.
+  Corporate Manager: To ensure corporate developer can follow license and vulnerability policy as the project is being created
+  Project Owner: The project is being created with approved vulnerability and license acceptance
+
+Preconditions: 
+  Relevant file/package information is in the License & Vulnerability Results database
+  The developer submitted the project software package for scanning sometime in the past.
+
+Main Success Scenario: Corporate developer receives accurate license and vulnerability information for the requested project packages
+
+Failed End Conditions: Corporate developer receives inaccurate or invalid license and vulnerability information for the requested project packages
+
+Trigger: Corporate developer requests license and vulnerability results from previously submitted package.

@@ -1,0 +1,23 @@
+Title: Scan Vulnerability and License Information 
+
+Primary Actor: Corporate Developer
+
+Goal in Context: The developer is able to query project information against NIST vulnerability database to ensure no vulnerabilities exist within the software being developed. 
+The developer is also able to submit project information to know the open source software license being used with the current project.
+Both the license and the vulnerability information obtained by the developer will be stored in the internal Vulnerability & License result database for the developer or manager to access later.
+
+Stakeholders: 
+  Corporate Manager: To be able to oversee corporate developer's progress on the project, and ensure developer is complying with license and vulnerability policy
+  Corporate Developer: Provide vulnerability & license information on the project currently working on, and make decisions based on corporate policy based on results.
+  Project Owner: To be aware of legal and security problems with the project (transparency), and make decisions based on the information
+
+Preconditions: 
+  The developer has a software package/project to submit to the Manage Software Information process
+  The Manage Software Information process has access to the NIST database and the OSS scanner to provide results 
+  
+Main Success Scenario: The developer recieves the license and vulnerability results from the project software package, and the results are stored in an internal result database for future access.
+
+Failed End Conditions: Process recieves inaccurate or fails to deliver vulnerability and license information.
+Process fails to store the results in the internal Vulnerability & License result result database.
+
+Trigger: Corporate developer submits the project software package to the Manage Software Information process
